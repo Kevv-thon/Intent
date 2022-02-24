@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_moveactivity"
+        android:textColor="@color/cardview_light_background"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:layout_margin="30dp"
+        android:id="@+id/tv_data1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data 1"></TextView>
+
+    <TextView
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/tv_data2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data 2"></TextView>
+
+</RelativeLayout>
