@@ -17,27 +17,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:text="@string/move_activity"></Button>
+        android:text="@string/move_activity" />
 
     <Button
         android:id="@+id/btn_move_activity_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:text="Pindah Activity Dengan Data"></Button>
+        android:text="Pindah Activity Dengan Data" />
 
     <Button
         android:id="@+id/btn_move_activity_object"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:text="@string/move_with_object"></Button>
+        android:text="@string/move_with_object" />
 
     <Button
         android:id="@+id/btn_dial_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
-        android:text="@string/dial_number"></Button>
+        android:text="@string/dial_number" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_move_for_result"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/move_with_result" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:text="@string/result_from_activity"
+        android:textColor="@color/white"/>
 
 </LinearLayout>
